@@ -1,9 +1,9 @@
 #ifndef _TASK4_
 #define _TASK4_
 
-#include <string>
+#include <string.h>
 
-char * sum(char *x, char *y);// сумма чисел x и y
+char * sum(char *x, char *y);// Г±ГіГ¬Г¬Г  Г·ГЁГ±ГҐГ« x ГЁ y
 
 #endif // !_TASK4_
 
