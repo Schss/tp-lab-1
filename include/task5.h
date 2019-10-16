@@ -2,11 +2,13 @@
 #define _TASK5_
 #include <iostream>
 #include <string>
+#include <string.h>
+
 using namespace std;
 
 
-void split(char ***result, int *N, char *buf, char ch); // разбиение строки buf на подстроки и запись 
-//результата в result, с присвоением по адресу N количества полученных подстрок.
+void split(char ***result, int *N, char *buf, char ch); // СЂР°Р·Р±РёРµРЅРёРµ СЃС‚СЂРѕРєРё buf РЅР° РїРѕРґСЃС‚СЂРѕРєРё Рё Р·Р°РїРёСЃСЊ 
+//СЂРµР·СѓР»СЊС‚Р°С‚Р° РІ result, СЃ РїСЂРёСЃРІРѕРµРЅРёРµРј РїРѕ Р°РґСЂРµСЃСѓ N РєРѕР»РёС‡РµСЃС‚РІР° РїРѕР»СѓС‡РµРЅРЅС‹С… РїРѕРґСЃС‚СЂРѕРє.
 
 #endif // !_TASK5_
 
