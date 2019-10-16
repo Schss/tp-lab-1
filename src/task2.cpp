@@ -7,11 +7,12 @@ using namespace std;
 
 bool checkPrime(unsigned int value) {
 	int i;
+	int v=value;
 	if (value == 2) {
 		return true;
 	}
-	for (i = 2; i <= sqrt(value); i++) {
-		if ((value%i == 0)) {
+	for (i = 2; i <= sqrt(v); i++) {
+		if ((v%i == 0)) {
 			return false;
 		}
 	}
